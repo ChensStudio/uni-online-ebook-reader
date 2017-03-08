@@ -1,5 +1,5 @@
 # uni-online-ebook-reader
-Online e-book reader, parse epub files
+Elementary online e-book reader developed as part of a university project.
 
 ### Overview
 Construct a web-based e-book reader.
