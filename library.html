@@ -1,0 +1,54 @@
+<!doctype html>
+
+<html lang="en">
+	<head>
+		<title></title>
+		<link href="css/style.css" rel="stylesheet" type="text/css"/>
+		<link href="css/myToolTip.css" rel="stylesheet" type="text/css"/>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		
+		<div id="library">
+		
+			<div class="libraryTop">
+				<div id="board" class="check rotate35">
+					My Bookshelf
+				</div>
+				<div id="books">
+					<div class="book">
+						<img class="bookLink" src="images/Library/bookLink.png" alt="">
+						<a href="bookreader.html">Book 1</a>
+					</div>
+					<div class="book">
+						<img class="bookLink" src="images/Library/bookLink.png" alt="">
+						<a href="bookreader.html">Book 2</a>
+					</div>
+					
+					<div class="aBook">
+						<a href="#">Check
+						</a>
+					</div>
+					<div class="aBook">
+						<a class="theBookRef">Check
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="libraryShelf">
+			
+			</div>
+			<div class="libraryShelf">
+			</div>
+			<div class="libraryShelf">
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="js/myToolTip.js"></script>
+	<script type="text/javascript" src="js/library.js"></script>
+	<script type="text/javascript">
+	$(".check").hover(function(){ $(this).toggleClass('rotate35'); });
+	</script>
+
+</html>
